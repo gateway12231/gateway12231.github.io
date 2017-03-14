@@ -1,0 +1,148 @@
+/*
+Colors
+#38AECC Maximum Blue(Aqua)
+#0090C1 Blue (NCS)
+#476995 Queen Blue
+#1D3461 Space Cadet (Really Dark blue)
+#1F487E Dark Cerulean (Darkish blue)
+#D3D4D6 Light Gray
+
+*/
+
+
+body {
+    background-color: #476995;
+}
+
+p {
+    font-family: calibri;
+}
+
+
+
+#log {
+    border: 6px solid;
+    padding: 100px 30px;
+    text-align: center;
+    background-color: #D3D4D6;
+	font-family: calibri;
+}
+
+
+
+#logHeader {
+    border: 6px solid;
+    border-bottom: 10px;
+    padding: 1px 30px;
+    text-align: center;
+    background-color: #0090C1;
+}
+
+table, th, td {
+    margin: 0 auto;
+    font-family: calibri;
+}
+
+#updateHeader {
+    background-color: lightblue;
+    margin: 0 auto;
+    font-family: calibri;
+    text-align: center;
+}
+
+#updateBoard {
+    border: 6px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+	height: 300px;
+    background-color: lightblue;
+	float: left;
+    font-family: calibri;
+	/*For when text goes too big*/
+	/*overflow: scroll;
+    overflow-x: hidden;*/
+}
+
+#changeLog {
+	border: 6px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+	height: 300px;
+    background-color: lightblue;
+	float: right;
+    font-family: calibri;
+	/*For when text goes too big*/
+	/*overflow: scroll;
+    overflow-x: hidden;*/
+}
+
+#gameImage {
+	float: left;
+	/*display: block;
+	height: 1px;
+	width: 4px;*/
+}
+	
+#gameImageMid {
+	padding: 0 20px 0 20px;
+}
+
+span.strike {
+	text-decoration: line-through;
+}
+	
+#nav {
+	background-color: none;
+	margin: 0 auto;
+	display: inline-block;
+	float: none;
+	list-style-type: none;
+	width: 200px;
+	padding: 10px;
+}
+
+#nav a {
+	float: left;
+	color: white;
+	cursor: pointer;
+	margin-right: 5px;
+	border-radius: 15px;
+	font-family: calibri;
+	display: block;
+	background-color: #38AECC;
+	border: 3px solid #38AECC;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+#nav a:hover {
+	float: left;
+	color: black;
+	cursor: pointer;
+	margin-right: 5px;
+	border-radius: 15px;
+	font-family: calibri;
+	display: block;
+	border: 3px solid #38AECC;
+	background-color: white;
+}
+
+#nav ul {
+	background-color: none;
+	margin: 0 auto;
+	display: none;
+}
+
+
+
+
+
+
+
+
+	
+	
+	
+	
