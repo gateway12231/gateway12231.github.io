@@ -1,41 +1,50 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title> Pi Day Game </title>
-    	<link rel='stylesheet' href='piStyles.css'/>
-    </head>
-	<script type ="text/javascript" src="piScript.js"></script>
-    <body>
-        <div id="logHeader">
-            <h1 style="font-size: 20px; font-family: calibri;"> Pi Day Circle Game </h1>
-        </div>
-        <div id="log">
-			<h1> Circle Game </h1>
+	<head>
+		<title> Home </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="container">
+<!--This is the top of the page-->
+			<img src="top.jpg" width="912" height="210">
+			<div style="background-color: black; height: 70"> <h1 class="title2"> Nicholas' Projects </h1></div>
+
+<!--This is the Navigation Bar-->
+			<div style="background-color: black;">
+				<ul id="nav">
+					<li> <a href="index.html"> Home </a></li>
+					<li> <a href="piDayGame\piDayGame.html"> Pi Day </a> </li>
+					<li> <a href="rockPaperScissors\rockPaperScissors.html"> Rock, Paper, Scissors </a> </li>
+					<!--<li> <a href="Harveland Photos3.html"> Section 2 </a> </li>
+					<li> <a href="Harveland Photos4.html"> Section 3 </a> </li>
+					<li> <a href="Harveland Links.html"> Links </a></li>-->
+				</ul>
+			</div>
+<!--This is all the main content of the page-->
+			<h1 class="title"> Home </h1>
+			<div style="text-align: center;">
+			<h2 style="font-family: calibri;"> Welcome to my website! </h2>
+			<h2 style="font-family: calibri;"> I post projects here! </h2>
+			<h2 style="font-family: calibri;"> Enjoy! </h2>
+			</div>
 			<br >
 			<br >
 			<br >
 			<br >
 			<br >
-			<ul id='nav'>
-				<li> <a onClick="play()">Play</a> </li> 
-				<li> <span style='float: right;'> <a onClick="info()">Info</a> </span> </li>
-			</ul>
-			
-			
-			<!---<input type="button" onclick="singlePlayQ()" value="Start Game">--->
+			<br >
+			<br >
+			<br >
+			<br >
+			<br >
+			<br >
 		</div>
-        <br >
-        <script>
-            var sectionNum;
-			function test2 () {
-				document.getElementById('log').innerHTML = "It worked"
-			};
-			
-        </script>
-        <br >
-        <br >
-        <br >
-        <br >
-		<h1 style="text-align: center; font-family: calibri;"> Created by Nicholas Wurth </h1>
-    </body>
+<!--This is the footer of the page
+		<div class="footer">
+			  <p> Site Owned by Evan Harveland </p>
+			  <p> Site Styled by Nicholas Wurth </p>
+			  <p> Harveland 2014 </p>
+		</div>-->
+	</body>
 </html>
