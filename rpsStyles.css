@@ -1,41 +1,25 @@
-/*
-Colors
-#38AECC Maximum Blue(Aqua)
-#0090C1 Blue (NCS)
-#476995 Queen Blue
-#1D3461 Space Cadet (Really Dark blue)
-#1F487E Dark Cerulean (Darkish blue)
-#D3D4D6 Light Gray
-
-*/
-
-
 body {
-    background-color: #476995;
+    background-color: blue;
 }
 
 p {
     font-family: calibri;
 }
 
-
-
 #log {
     border: 6px solid;
     padding: 100px 30px;
     text-align: center;
-    background-color: #D3D4D6;
+    background-color: lightblue;
 	font-family: calibri;
 }
-
-
 
 #logHeader {
     border: 6px solid;
     border-bottom: 10px;
     padding: 1px 30px;
     text-align: center;
-    background-color: #0090C1;
+    background-color: lightgreen;
 }
 
 table, th, td {
@@ -78,14 +62,12 @@ table, th, td {
     overflow-x: hidden;*/
 }
 
-#gameImage {
-	float: left;
-	/*display: block;
-	height: 1px;
-	width: 4px;*/
+span.gameImage {
+	cursor: pointer;
 }
 	
-#gameImageMid {
+span.gameImageMid {
+	cursor: pointer;
 	padding: 0 20px 0 20px;
 }
 
@@ -113,8 +95,8 @@ span.strike {
 	border-radius: 15px;
 	font-family: calibri;
 	display: block;
-	background-color: #38AECC;
-	border: 3px solid #38AECC;
+	background-color: blue;
+	border: 3px solid blue;
 	padding: 10px 20px 10px 20px;
 	text-align: center;
 }
@@ -126,7 +108,7 @@ span.strike {
 	border-radius: 15px;
 	font-family: calibri;
 	display: block;
-	border: 3px solid #38AECC;
+	border: 3px solid blue;
 	background-color: white;
 }
 
@@ -134,4 +116,3 @@ span.strike {
 	background-color: none;
 	display: none;
 }
-
